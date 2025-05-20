@@ -39,6 +39,7 @@ const QuizForm = () => {
           onChange={handleChange}
           required
         />
+        <br/>
         <input
           type="text"
           name="submittedAnswer"
@@ -47,6 +48,7 @@ const QuizForm = () => {
           onChange={handleChange}
           required
         />
+        <br/>
         <button type="submit">Submit Answer</button>
       </form>
     </div>
